@@ -11,6 +11,9 @@ const messageRoutes = require("./routes/messageRoutes");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
 const app = express();
+app.get("/test", (req, res) => {
+   res.send("API IS RUNNING");
+});
 app.use(cors());
 app.use(express.json());    //To accept json data
 app.use('/api/user', userRoutes)
@@ -19,9 +22,6 @@ app.use("/api/message", messageRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.get("/test", (req, res) => {
-   res.send("API IS RUNNING");
-});
 
 const PORT = process.env.PORT || 5000;
 
