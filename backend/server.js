@@ -19,7 +19,7 @@ app.use("/api/message", messageRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
    res.send("API IS RUNNING");
 });
 
