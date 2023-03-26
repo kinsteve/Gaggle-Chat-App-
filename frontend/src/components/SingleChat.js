@@ -14,7 +14,7 @@ import Lottie from "react-lottie";
 import animationData from "../animations/typing.json";
 
 
-const ENDPOINT = `${API_SERVICE}`;
+const ENDPOINT = "https://gaggle.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {

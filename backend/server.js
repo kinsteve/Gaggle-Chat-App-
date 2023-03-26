@@ -34,7 +34,7 @@ const start = async () => {
          const io = require('socket.io')(server, {
             pingTime: 60000,
             cors: {
-               origin: "'https://gaggleit.netlify.app",
+               origin: "https://gaggleit.netlify.app",
             },
          });
 
