@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon backend/server.js",
     "server": "node backend/server.js",
-    "build":"npm i",
+    "build": "npm i",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,6 +19,7 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.7.5",
+    "nodemon": "^2.0.22",
     "path": "^0.12.7",
     "socket.io": "^4.5.3"
   }
