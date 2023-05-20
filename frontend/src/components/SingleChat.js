@@ -150,7 +150,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
     return (
         <>
             {selectedChat ? (
-                <>
+                <>  
                     <Text
                         fontSize={{ base: "28px", md: "30px" }}
                         pb={3}
